@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CodableCSV",
     platforms: [
-        .macOS(.v10_13), .iOS(.v10), .tvOS(.v10), .watchOS(.v3)
+        .macOS(.v10_13), .iOS(.v9), .tvOS(.v10), .watchOS(.v3)
     ],
     products: [
         .library(name: "CodableCSV", targets: ["CodableCSV"]),
